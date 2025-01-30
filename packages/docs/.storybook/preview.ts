@@ -10,6 +10,22 @@ const preview: Preview = {
         color: /(background|color)$/i,
         date: /Date$/i
       }
+    },
+    backgrounds: {
+      default: 'dark',
+      values: [
+        {
+          name: 'dark',
+          value: '#18181B'
+        },
+        {
+          name: 'light',
+          value: '#FFFFFF'
+        }
+      ]
+    },
+    darkMode: {
+      current: 'dark'
     }
   }
 }
