@@ -1,6 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
 import { Button, ButtonProps } from '@tdv/react'
-import { ArrowRightIcon } from 'lucide-react'
 
 export default {
   title: 'Form/Button',
@@ -49,7 +48,7 @@ export const WithIcon: StoryObj<ButtonProps> = {
     children: (
       <>
         Next step
-        <ArrowRightIcon strokeWidth={2} />
+        {/* <ArrowRightIcon /> */}
       </>
     )
   }
