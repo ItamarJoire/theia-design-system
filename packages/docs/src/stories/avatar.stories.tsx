@@ -8,6 +8,11 @@ export default {
   args: {
     src: 'https://avatars.githubusercontent.com/u/4726922',
     alt: 'Avatar'
+  },
+  argTypes: {
+    src: {
+      control: { type: 'text' }
+    }
   }
 } as Meta<AvatarProps>
 

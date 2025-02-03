@@ -4,9 +4,15 @@ import { Heading, HeadingProps } from '@tdv/react'
 export default {
   title: 'Typography/Heading',
   component: Heading,
-
+  size: 'md',
   args: {
     children: 'Custom title'
+  },
+  argTypes: {
+    size: {
+      options: ['xxs', 'xs', 'sm', 'md', 'lg', '2xl', '4xl', '5xl', '6xl'],
+      control: { type: 'inline-radio' }
+    }
   }
 } as Meta<HeadingProps>
 

@@ -15,3 +15,5 @@ export interface LabelProps extends ComponentProps<typeof Label> {
   children: string
   as?: ElementType
 }
+
+Label.displayName = 'Label'
