@@ -22,6 +22,13 @@ const config: StorybookConfig = {
   },
   docs: {
     autodocs: true
+  },
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/theia-design-system/'
+    }
+
+    return config
   }
 }
 
