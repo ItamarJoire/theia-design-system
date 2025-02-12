@@ -1,10 +1,14 @@
-import { ComponentProps } from 'react'
+import { forwardRef, ComponentRef } from 'react'
 import { Input } from './styles'
+import type { ComponentPropsWithoutRef } from 'react'
 
-export interface TextInputProps extends ComponentProps<typeof Input> {}
+export interface TextInputProps
+  extends ComponentPropsWithoutRef<typeof Input> {}
 
-export function TextInput({ ...props }: TextInputProps) {
-  return <Input {...props} />
-}
+export const TextInput = forwardRef<ComponentRef<typeof Input>, TextInputProps>(
+  (props, ref) => {
+    return <Input {...props} ref={ref} />
+  }
+)
 
 TextInput.displayName = 'TextInput'
