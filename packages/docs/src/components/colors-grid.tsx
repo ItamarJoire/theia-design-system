@@ -1,4 +1,4 @@
-import { colors } from '@tdv/tokens'
+import { colors } from '@tdeepv/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

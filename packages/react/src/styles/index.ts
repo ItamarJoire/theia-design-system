@@ -8,7 +8,7 @@ import {
   lineHeights,
   radii,
   space
-} from '@tdv/tokens'
+} from '@tdeepv/tokens'
 
 export const {
   styled,

@@ -10,6 +10,7 @@ export const colors = {
   zinc800: '#27272A',
   zinc900: '#18181B',
   zinc950: '09090B',
+  white: '#FFFFFF',
 
   dark800: '#1E1E1E',
   dark900: '#0E0E0E',
@@ -18,5 +19,5 @@ export const colors = {
 
   theiaLight: '#4B5943',
   theiaPrimary: '#3F4C36',
-  theiaDark: '#20261D',
+  theiaDark: '#20261D'
 }

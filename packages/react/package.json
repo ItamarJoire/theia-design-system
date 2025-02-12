@@ -1,11 +1,14 @@
 {
-  "name": "@tdv/react",
-  "version": "2.0.0",
+  "name": "@tdeepv/react",
+  "version": "3.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external @tdeepv/tokens",
     "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
@@ -15,9 +18,9 @@
   "type": "commonjs",
   "description": "",
   "devDependencies": {
-    "@tdv/eslint-config": "*",
-    "@tdv/tokens": "*",
-    "@tdv/ts-config": "*",
+    "@tdeepv/eslint-config": "*",
+    "@tdeepv/tokens": "*",
+    "@tdeepv/ts-config": "*",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "react": "^19.0.0",

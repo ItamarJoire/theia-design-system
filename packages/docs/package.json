@@ -1,5 +1,5 @@
 {
-  "name": "@tdv/docs",
+  "name": "@tdeepv/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,10 +13,10 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@tdv/eslint-config": "*",
-    "@tdv/react": "*",
-    "@tdv/tokens": "*",
-    "@tdv/ts-config": "*",
+    "@tdeepv/eslint-config": "*",
+    "@tdeepv/react": "*",
+    "@tdeepv/tokens": "*",
+    "@tdeepv/ts-config": "*",
     "lucide-react": "^0.474.0",
     "polished": "^4.3.1",
     "react": "^18.3.1",

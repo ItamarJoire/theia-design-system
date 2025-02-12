@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Box, TextInput, TextInputProps, Button, Label } from '@tdv/react'
+import { Box, TextInput, TextInputProps, Button, Label } from '@tdeepv/react'
 
 export default {
   title: 'Form/Text Input',

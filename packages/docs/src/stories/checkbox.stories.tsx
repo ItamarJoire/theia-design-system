@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Checkbox, CheckboxProps, Label } from '@tdv/react'
+import { Checkbox, CheckboxProps, Label } from '@tdeepv/react'
 
 export default {
   title: 'Form/Checkbox',

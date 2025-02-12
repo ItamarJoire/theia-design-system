@@ -1,5 +1,5 @@
 {
-  "name": "@tdv/eslint-config",
+  "name": "@tdeepv/eslint-config",
   "license": "ISC",
   "private": true,
   "main": "index.js",

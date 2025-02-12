@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Button, ButtonProps } from '@tdv/react'
+import { Button, ButtonProps } from '@tdeepv/react'
 
 export default {
   title: 'Form/Button',

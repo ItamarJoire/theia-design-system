@@ -1,6 +1,9 @@
 {
-  "name": "@tdv/tokens",
-  "version": "2.0.0",
+  "name": "@tdeepv/tokens",
+  "version": "3.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -15,8 +18,8 @@
   "type": "commonjs",
   "description": "",
   "devDependencies": {
-    "@tdv/ts-config": "*",
-    "@tdv/eslint-config": "*",
+    "@tdeepv/ts-config": "*",
+    "@tdeepv/eslint-config": "*",
     "tsup": "^8.3.6",
     "typescript": "^5.7.3"
   }

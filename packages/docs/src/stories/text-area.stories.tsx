@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Box, TextArea, TextAreaProps, Button, Label } from '@tdv/react'
+import { Box, TextArea, TextAreaProps, Button, Label } from '@tdeepv/react'
 
 export default {
   title: 'Form/Text Area',

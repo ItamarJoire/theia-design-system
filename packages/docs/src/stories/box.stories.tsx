@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Box, BoxProps, Text } from '@tdv/react'
+import { Box, BoxProps, Text } from '@tdeepv/react'
 
 export default {
   title: 'Surfaces/Box',

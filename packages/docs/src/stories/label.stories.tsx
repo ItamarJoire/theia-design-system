@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Label, LabelProps } from '@tdv/react'
+import { Label, LabelProps } from '@tdeepv/react'
 
 export default {
   title: 'Typography/Label',
