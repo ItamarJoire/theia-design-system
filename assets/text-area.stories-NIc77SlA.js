@@ -1,0 +1,5 @@
+import{j as r}from"./index-D2kirXCa.js";import{b as m,a as l,L as x,B as a}from"./index-C7wbDZJH.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-ByctJgwf.js";import"./index-Cf9XvIV_.js";import"./index-CmGMB0yt.js";const h={title:"Form/Text Area",component:m,args:{},decorators:[d=>r.jsxs(l,{as:"label",css:{display:"flex",flexDirection:"column",gap:"$1"},children:[r.jsx(x,{children:"Description"}),d(),r.jsxs("div",{style:{display:"flex",justifyContent:"flex-end",gap:"8px",marginTop:"16px"},children:[r.jsx(a,{variant:"secondary",children:"Cancel"}),r.jsx(a,{variant:"primary",children:"Submit"})]})]})]},e={},s={args:{disabled:!0}};var t,o,i;e.parameters={...e.parameters,docs:{...(t=e.parameters)==null?void 0:t.docs,source:{originalSource:"{}",...(i=(o=e.parameters)==null?void 0:o.docs)==null?void 0:i.source}}};var n,c,p;s.parameters={...s.parameters,docs:{...(n=s.parameters)==null?void 0:n.docs,source:{originalSource:`{
+  args: {
+    disabled: true
+  }
+}`,...(p=(c=s.parameters)==null?void 0:c.docs)==null?void 0:p.source}}};const D=["Primary","Disabled"];export{s as Disabled,e as Primary,D as __namedExportsOrder,h as default};
