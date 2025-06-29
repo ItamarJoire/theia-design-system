@@ -1,0 +1,5 @@
+import{j as r}from"./index-D2kirXCa.js";import{c as d,a as l,L as u,B as a}from"./index-C7wbDZJH.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-ByctJgwf.js";import"./index-Cf9XvIV_.js";import"./index-CmGMB0yt.js";const h={title:"Form/Text Input",component:d,args:{},decorators:[m=>r.jsxs(l,{as:"label",css:{display:"flex",flexDirection:"column",gap:"$1"},children:[r.jsx(u,{children:"Email or username"}),m(),r.jsxs("div",{style:{display:"flex",justifyContent:"flex-end",gap:"8px",marginTop:"16px"},children:[r.jsx(a,{variant:"secondary",children:"Cancel"}),r.jsx(a,{variant:"primary",children:"Submit"})]})]})]},e={},s={args:{disabled:!0}};var t,o,i;e.parameters={...e.parameters,docs:{...(t=e.parameters)==null?void 0:t.docs,source:{originalSource:"{}",...(i=(o=e.parameters)==null?void 0:o.docs)==null?void 0:i.source}}};var n,c,p;s.parameters={...s.parameters,docs:{...(n=s.parameters)==null?void 0:n.docs,source:{originalSource:`{
+  args: {
+    disabled: true
+  }
+}`,...(p=(c=s.parameters)==null?void 0:c.docs)==null?void 0:p.source}}};const v=["Primary","Disabled"];export{s as Disabled,e as Primary,v as __namedExportsOrder,h as default};
